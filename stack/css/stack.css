@@ -4,9 +4,10 @@
  */
 
 :root {
-	--main-color: #4FFF06;
+/*	--main-color: #4FFF06; */
+	--main-color: #663399;
 	--dark-main-color: black;
-	--background-color: white;
+	--background-color: #d1c1e0;
 	--transparent-color: rgba(120, 120, 120, 0.15);
 	--transparent-color-hover: rgba(120, 120, 120, 0.25);
 	--normal-margin: 1rem;
@@ -2401,12 +2402,13 @@ right: var(--margin);
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--dark-main-color: white;
-		--background-color: #202124;
-		--main-color: #3ec904;
+		--dark-main-color: #d1c1e0;
+		/*--background-color: black;*/
+		--background-color: #140a1e;
+		/*--main-color: #3ec904;*/
+		--main-color: #663399;
 	}
 
-	
 	form [type="text"]::placeholder {
 		color: unset;
 	}
